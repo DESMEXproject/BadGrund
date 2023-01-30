@@ -119,7 +119,7 @@ print(np.min(data32.ERR.imag))
 # %%
 data32.setOrigin([580000., 5740000.])
 # %% Save Data
-data32.basename = "Tx3IPHT_4_32"
+data32.basename = "Tx2IPHT_4_32"
 dataname=data32.basename
 data32.saveData(cmp=[1,1,1],txdir=-1)
 data32.showField("line",label='All', radius=50.)
